@@ -1,0 +1,64 @@
+.about h4{
+    display: flex;
+   text-align:initial;
+   margin-top: 10px;
+   padding-left: 50px;
+   padding-bottom: 0px;
+}
+.about h1{
+    display: flex;
+    text-align:initial;
+    padding-left: 50px;
+}
+
+.about span{
+    color: #ff0000;
+}
+
+.about img{
+    float: right;
+    height: 40%;
+    width: 40%;
+    margin-top: -500px;
+}
+
+.about p{
+    text-align: justify;
+    margin: 60px;
+}
+.backgroundTag{
+    width: 100%;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+}
+#span1{
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-size: 45px;
+
+}
+
+#span1 span{
+    color: #e9de0e;
+    font-weight: 400;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+#span2{
+    color: white;
+    font-family: "Poppins",sans-serif;
+    font-size: 25px;
+    margin-left: 400px;
+  
+}
+#span2 span{
+    color: #e9de0e;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.centerAlign{
+    position: absolute;
+    padding-top: 100px;
+    padding-left: 350px;
+}

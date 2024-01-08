@@ -1,0 +1,26 @@
+<div>
+  <div class="background" >
+    <mat-toolbar class="headerNav">
+      <mat-toolbar-row>
+        <a href="#" class="logo">RILA<span>CARS</span></a>
+      <div class="navbar">
+        <ul>
+          <li class="active" routerLink = "home"> Home</li>
+          <li [routerLink] = '"cars"' (click)="goToCar()">Cars</li>
+          <li routerLink = "about" (click)="goToAbout()">About Us</li>
+          <li routerLink = "contact" (click)="goToContact()">Contact Us</li>
+        </ul>
+      </div>
+      </mat-toolbar-row>
+    </mat-toolbar>
+    <img class="wheel" src="../assets/images/wheel.png" />
+    <div class="text">
+     <h1>We Have Variety Of Cars<br>For <span>Your</span> Need</h1>
+    </div>
+  </div>
+  <div>
+   <app-cars></app-cars>
+   <app-about></app-about>
+   <app-contact></app-contact>
+  </div>
+</div>

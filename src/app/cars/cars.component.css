@@ -1,0 +1,184 @@
+.carHeading{
+    text-align: center;
+}
+
+.carHeading span{
+    color: #ff0000;
+}
+
+.hatchBack{
+    margin: auto;
+    width: 15%;
+    text-align: center;
+}
+.Sedan{
+    margin: auto;
+    width: 15%;
+    text-align: center;
+}
+
+.Suv{
+    margin: auto;
+    width: 18%;
+    text-align: center;
+}
+
+.boxContainer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.boxContainer .box{
+    flex : 1 1 17rem;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow : hidden;
+}
+
+.boxContainer .box img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.boxContainer .box img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.boxContainer .box h2{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+.boxContainer .box:hover h2{
+    background: #ff0000;
+    color: aliceblue;
+}
+.hatchBack h3{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+}
+
+.hatchBack:hover h3{
+    background: #ebc609;
+    color: aliceblue;
+}
+
+.boxContainer1{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.boxContainer1 .box1{
+    flex : 1 1 17rem;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow : hidden;
+}
+
+.boxContainer1 .box1 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.boxContainer1 .box1 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.boxContainer1 .box1 h2{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+.boxContainer1 .box1:hover h2{
+    background: #ff0000;
+    color: aliceblue;
+}
+.Sedan h3{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+}
+
+.Sedan:hover h3{
+    background: #ebc609;
+    color: aliceblue;
+}
+
+.boxContainer2{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.boxContainer2 .box2{
+    flex : 1 1 17rem;
+    position: relative;
+    border-radius: 0.5rem;
+    overflow : hidden;
+}
+
+.boxContainer2 .box2 img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.boxContainer2 .box2 img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.boxContainer2 .box2 h2{
+    position: absolute;
+    bottom: 1rem;
+    left: 1rem;
+    font-weight: 400;
+    font-size: 1rem;
+    background-color: aliceblue;
+    padding: 8px;
+    border-radius: 0.5rem;
+}
+.boxContainer2 .box2:hover h2{
+    background: #ff0000;
+    color: aliceblue;
+}
+
+.Suv h3{
+    text-align: center;
+    background-color: aliceblue;
+    border-radius: 0.5rem;
+}
+
+.Suv:hover h3{
+    background: #ebc609;
+    color: aliceblue;
+}
